@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cmath>
-#include <math.h>
+
 using namespace std;
 int primef(long long int y)
 {int i,n; n=y;
@@ -22,7 +22,7 @@ return 1;
 int main(void)
 {long long int x ,n ,a,flag,count;x=1;
  cout<<"thanks";
- count=1;
+ count=0;
  while(x<=10000000000)
  {flag=primef(x);	
   if(flag==1)
