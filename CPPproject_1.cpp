@@ -5,7 +5,7 @@ int main(void)
 while(i<1000) 
 {if(i%3==0||i%5==0) 
 sum+=i;
-I++;
+i++;
 }
 cout<<sum; 
 return 0;}
